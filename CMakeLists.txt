@@ -3,4 +3,5 @@ project(university C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(university main.c)
+add_executable(university fahrenheit_Celsius.c
+        helloWorld.c)
