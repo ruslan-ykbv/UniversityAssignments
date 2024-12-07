@@ -3,5 +3,6 @@ project(university C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(university fahrenheit_Celsius.c
-        helloWorld.c)
+add_executable(university age.c
+        characters.c
+        square.c)
