@@ -3,6 +3,5 @@ project(university C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(university age.c
-        characters.c
-        square.c)
+add_executable(university HW1/age.c
+        HW1/square.c)
